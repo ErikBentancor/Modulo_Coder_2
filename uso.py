@@ -6,7 +6,7 @@ print(resultado)
 combinar(5)
 
 from collections import namedtuple
-variab_le = namedtuple("club", ["color_1","color_2"])
-river_plate = variab_le ("rojo","blanco")
+algo = namedtuple("club", ["color_1","color_2"])
+river_plate = algo ("rojo","blanco")
 print (river_plate)
 print (type (river_plate))
